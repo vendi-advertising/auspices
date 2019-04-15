@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1cc9592e6338902dc31ecf0c5426cb5e",
+    "content-hash": "db36df162e572e2e3dd06fc5bbf3ddd9",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -60,6 +60,50 @@
                 "validation"
             ],
             "time": "2018-12-24T15:25:25+00:00"
+        },
+        {
+            "name": "pear/net_dns2",
+            "version": "v1.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikepultz/netdns2.git",
+                "reference": "9596a781b4358ee7c1ee0d6b884667c6c4d9a204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikepultz/netdns2/zipball/9596a781b4358ee7c1ee0d6b884667c6c4d9a204",
+                "reference": "9596a781b4358ee7c1ee0d6b884667c6c4d9a204",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Net_DNS2": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Pultz",
+                    "email": "mike@mikepultz.com",
+                    "homepage": "https://mikepultz.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Native PHP5 DNS Resolver and Updater Library",
+            "homepage": "https://netdns2.com/",
+            "keywords": [
+                "PEAR",
+                "dns",
+                "network"
+            ],
+            "time": "2018-02-13T03:07:54+00:00"
         },
         {
             "name": "psr/cache",
